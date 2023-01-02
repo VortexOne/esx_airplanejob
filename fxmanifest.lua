@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Vortex'
-description 'ESX Airplane Job'
+description 'ESX Airplane Job V1.1'
 version 'legacy'
 
 client_scripts{

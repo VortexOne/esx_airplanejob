@@ -5,6 +5,7 @@ Locales['de'] = {
     ['endJobNotify'] = 'Du hast den Flugzeug Job beendet.',
 
     ['startJob'] = 'Drücke ~INPUT_CONTEXT~ um den Flugzeug Job zu starten',
+    ['areaOccupied'] = 'Etwas ist im Weg! Kann das Flugzeug nicht spawnen...',
     ['endJob'] = 'Drücke ~INPUT_CONTEXT~ um den Job zu beenden.',
     ['flyOrReturnToHangar'] = 'Fliege zum ~y~Ziel~s~ und belade das ~y~Flugzeug~s~ oder kehre zurück zum Hangar.',
     ['startLoading'] = 'Drücke ~INPUT_CONTEXT~ um das Flugzeug zu beladen.',

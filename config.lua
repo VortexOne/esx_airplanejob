@@ -1,7 +1,8 @@
 --------------------------------------------------
 --------- SCRIPT MADE BY \~𝓥𝓞𝓡𝓣𝓔𝓧#0819 ---------
 ------- Feel free to message me on Discord -------
---- P.S.: Sorry for not including an en-locale ---
+-------------- UPDATED VERSION: 1.1 --------------
+--- Update: Added Spawn Check, Added en locale ---
 ------------------- HAVE FUN!! -------------------
 --------------------------------------------------
 --[[
@@ -19,7 +20,7 @@ If you don't have money for okokNotify just replace the exports in the client an
 ]]--
 
 Config = {}
-Config.Locale = 'de'
+Config.Locale = 'en'
 
 Config.useEsxLegacy = true -- Are you running ESX Legacy on your server? If yes, leave on true, if not or you are not sure, turn to false.
 -- If you have it on false and get a warning similar to this when starting the script: [WARNING] esx_airplanejob used esx:getSharedObject, this method is deprecated and should not be used, On 30/11/2022 esx:getSharedObject will come to EOL and be fully removed!
@@ -45,8 +46,8 @@ Config.DestBlipName = 'Ziel'
 -- Where the player should deliver the loaded goods.
 Config.DeliverDestination = vector3(-1548.1018, -3186.1128, 13.9449)
 -- Time to load and unload the goods in seconds
-Config.LoadTime = 5
-Config.UnloadTime = 5
+Config.LoadTime = 60
+Config.UnloadTime = 60
 -- How much should the Job pay?
 Config.Payment1 = 1000
 Config.Payment2 = 1500

@@ -82,10 +82,14 @@ function StartAirplaneJob()
                     if not inMissionOne then
                         ESX.ShowHelpNotification(_U('startJob'))
                         if IsControlJustReleased(1, 51) then
+                            if not IsPositionOccupied(Config.Spawn, 8.0, 0, 1, 1, 0, 0, 0, 0) then
                             --print("Job started")
                             spawnVeh()
                             startJob()
                             Citizen.Wait(1000)
+                            else
+                                ESX.ShowNotification(_U('areaOccupied'), 3000)
+                            end
                         end
                     else
                         ESX.ShowHelpNotification(_U('endJob'))
